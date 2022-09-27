@@ -1,0 +1,147 @@
+a {
+    color:red;
+    text-decoration: none;
+}
+
+a:hover {
+    color:green;
+    text-decoration: none;
+}
+
+#labyrinthe {
+    position: absolute;
+    margin: 150px 10px 10px 50px;
+    height: 100%;
+    width: 100%;
+    }
+
+    #labyrinthe-centre {
+        position: absolute;
+        margin: 300px 10px 10px 50px;
+        height: 100%;
+        width: 100%;
+        }
+
+    #carre {
+    position: absolute;
+    margin: 100px 10px 10px 300px;
+    height: 300px;
+    width: 300px;
+    border: solid 0.3em;
+    border-color:black; 
+    }
+    
+    .fleche_droite {
+    position: absolute;
+    margin: 195px 0px 0px 606px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid red;
+    width: 0;
+    height: 0;
+    }
+
+    .fleche_droite_blanche {
+        position: absolute;
+        margin: 195px 0px 0px 606px;
+        border-top: 60px solid rgb(255, 255, 255);
+        border-bottom: 60px solid rgb(255, 255, 255);
+        border-left: 60px solid rgb(255, 255, 255);
+        width: 0;
+        height: 0;
+        }
+
+        
+    .fleche_gauche {
+    position: absolute;
+    margin: 195px 0px 0px 244px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid red;
+    width: 0;
+    height: 0;
+    }
+
+
+    
+
+    .fleche_bas {
+    position: absolute;
+    margin: 376px 0px 0px 420px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid red;
+    transform: rotate(-90deg);
+    width: 0;
+    height: 0;
+    }
+
+    .fleche_bas_blanche {
+        position: absolute;
+        margin: 373px 0px 0px 420px;
+        border-top: 60px solid rgb(255, 255, 255);
+        border-bottom: 60px solid rgb(255, 255, 255);
+        border-right: 60px solid rgb(255, 255, 255);
+        transform: rotate(-90deg);
+        width: 0;
+        height: 0;
+        }
+
+    .fleche_haut {
+        position: absolute;
+    margin: 14px 0px 0px 420px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid red;
+    transform: rotate(90deg);
+    width: 0;
+    height: 0;
+    }
+
+    .nord {
+    position: absolute;
+    margin: 105px 0px 0px 415px;
+    font-size:x-large;
+    font-weight: bold;
+    color: red;
+    }
+
+    .sud {
+    position: absolute;
+    margin: 380px 0px 0px 425px;
+    font-size:x-large;
+    font-weight: bold;
+    color: red;
+    }
+
+    .est {
+    position: absolute;
+    margin: 247px 0px 0px 554px;
+    font-size:x-large;
+    font-weight: bold;
+    color: red;
+    }
+
+    .ouest {
+    position: absolute;
+    margin: 247px 0px 0px 310px;
+    font-size:x-large;
+    font-weight: bold;
+    color: red;
+    }
+
+    .sortie {
+        position: absolute;
+        margin: 247px 0px 0px 554px;
+        font-size:x-large;
+        font-weight: bold;
+        color: rgb(247, 8, 175);
+        }
+
+     .entree {
+            position: absolute;
+            margin: 380px 0px 0px 400px;
+            font-size:x-large;
+            font-weight: bold;
+            color: rgb(247, 8, 175);
+            }

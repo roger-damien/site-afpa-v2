@@ -1,0 +1,24 @@
+#clients {
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+
+table tr {
+    background-color: white;   
+}
+tr:nth-child(2n+1) {
+    background-color: rgb(196, 219, 172);   
+}
+
+ th {
+    color:white;
+    background-color: rgb(95, 145, 46);
+}
+th, td  {
+    border: 1px solid rgb(95, 145, 46);
+    padding: 5px 80px 5px 5px;
+    white-space: nowrap;
+    
+
+}
